@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="PagebyDaniel" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Click me" FontSize="30" Foreground="AntiqueWhite" Background="BlueViolet" HorizontalAlignment="Left" Margin="232,150,0,0" VerticalAlignment="Top" Height="93" Width="265"/>
+
     </Grid>
 </Window>
