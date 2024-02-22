@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace WpfApp1.MathLogics
 {
-    internal class Factorial
+    public class Factorial
     {
+        public static int Calculate(int n)
+        {
+            int req = 7;
+            for (int i = 0; i < n; i++)
+            {
+                req *= i;
+            }
+            return req;
+        }
     }
 }
